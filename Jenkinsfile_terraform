@@ -22,7 +22,6 @@ pipeline {
                 }
         stage ("Terraform plan") {
             steps {
-                input "continue?"
                 sh 'terraform plan'
             }
         }
