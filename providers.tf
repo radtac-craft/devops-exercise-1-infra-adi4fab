@@ -30,8 +30,8 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "terraformtfstatelocation"
-    key    = "terraform.tfstate"
+    bucket = "storingterraformstate"
+    key    = "Terraform/terraform.tfstate"
     region = "us-east-1"
    # profile = "terraform_user"
   }
