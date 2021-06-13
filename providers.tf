@@ -33,5 +33,6 @@ terraform {
     bucket = "terraformansibledeplymentintegration"
     key    = "terraform.tfstate"
     region = "us-east-1"
+    profile = "terraform_user"
   }
 }
