@@ -20,7 +20,7 @@ terraform {
 
 provider "aws" {
   region  = "us-east-1"
-  profile = "terraform_user"
+#  profile = "terraform_user"
 }
 
 
@@ -30,8 +30,9 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "terraformansibledeplymentintegration"
+    bucket = "terraformtfstatelocation"
     key    = "terraform.tfstate"
     region = "us-east-1"
+   # profile = "terraform_user"
   }
 }
