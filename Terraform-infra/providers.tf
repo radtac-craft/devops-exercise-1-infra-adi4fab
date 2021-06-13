@@ -23,3 +23,16 @@ provider "aws" {
   profile = "terraform_user"
 }
 
+
+##########################################
+######## Configure backend s3  ###########
+##########################################
+
+terraform {
+  backend "s3" {
+    bucket = "terraformansibledeplymentintegration"
+    key    = "terraform.tfstate"
+    region = "us-east-1"
+  }
+}
+
