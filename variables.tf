@@ -28,8 +28,3 @@ variable "ins_type_nexus" {
   default     = "t2.medium"
 }
 
-variable "ins_type_sonar" {
-  type        = string
-  description = "instance type of the instance"
-  default     = "t2.large"
-}
