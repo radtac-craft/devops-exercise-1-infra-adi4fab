@@ -1,3 +1,7 @@
+FLOW DIAGRAM
+
+![Devops](https://user-images.githubusercontent.com/64772793/121806614-34d86d80-cc6e-11eb-9d48-5f252e82867a.PNG)
+
 * TOOLS INFO:
 
 http://34.233.122.134:8080/ - JENKINS -   Username: admin   Password: admin
