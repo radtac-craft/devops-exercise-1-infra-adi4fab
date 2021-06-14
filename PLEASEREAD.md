@@ -10,7 +10,7 @@ http://34.233.122.134:8080/ - JENKINS -   Username: admin   Password: admin
 http://52.204.152.255:8081/ -  NEXUS  -  Username: admin   Password: admin
 
 
-* SERVER INFO:
+* ANSIBLE SERVER INFO:
 
 54.88.193.99	username: ansibleadmin password: ansibleansible
 
@@ -28,6 +28,6 @@ http://54.157.210.133:8080/latest/#	- using docker containers.
 
 http://34.233.122.134:8080/ - JENKINS -   Username: admin   Password: admin
 
-Pipeline 1 - CICD-pipeline - for web application complete CI/CD
+Pipeline Name - CICD-pipeline - for web application complete CI/CD
 
 
