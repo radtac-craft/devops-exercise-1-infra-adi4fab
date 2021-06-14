@@ -20,19 +20,4 @@ terraform {
 
 provider "aws" {
   region  = "us-east-1"
-#  profile = "terraform_user"
-}
-
-
-##########################################
-######## Configure backend s3  ###########
-##########################################
-
-terraform {
-  backend "s3" {
-    bucket = "storingterraformstate"
-    key    = "Terraform/terraform.tfstate"
-    region = "us-east-1"
-   # profile = "terraform_user"
-  }
 }
