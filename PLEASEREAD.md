@@ -30,4 +30,4 @@ http://34.233.122.134:8080/ - JENKINS -   Username: admin   Password: admin
 
 Pipeline 1 - CICD-pipeline - for web application complete CI/CD
 
-Pipeline 2 - Terraform_Infra_provisioning - for infra creation using terraform.
+
