@@ -23,6 +23,11 @@ provider "aws" {
   profile = "terraform_user"
 }
 
+resource "aws_s3_bucket" "bucket" {
+  bucket = "statefilebucketforukterrform"
+  acl    = "public-read-write"
+}
+
 
 terraform {
   backend "s3" {
