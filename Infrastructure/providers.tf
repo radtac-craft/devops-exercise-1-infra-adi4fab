@@ -20,4 +20,13 @@ terraform {
 
 provider "aws" {
   region  = "us-east-1"
+  profile = "terraform_user"
 }
+
+
+terraform {
+  backend "s3" {
+    bucket = "statefilebucketforukterrform"
+    key    = "statefile"
+    region = "us-east-1"
+  }
